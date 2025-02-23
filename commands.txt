@@ -1,0 +1,53 @@
+# Discord Music Bot Commands
+
+1. `:join <channel_name>`
+   - Joins the specified voice channel. Default channel name is "music".
+
+2. `:play <url>`
+   - Plays a song from the provided SoundCloud URL.
+
+3. `:pause`
+   - Pauses the currently playing song.
+
+4. `:resume`
+   - Resumes the paused song.
+
+5. `:skip`
+   - Skips the current song and plays the next one in the queue.
+
+6. `:leave`
+   - Makes the bot disconnect from the voice channel.
+
+7. `:queue`
+   - Displays the list of songs in the current queue.
+
+8. `:playqueue`
+   - Plays all the songs that are currently in the queue.
+
+9. `:search <query>`
+   - Searches for a song on SoundCloud based on the given query and adds it to the queue.
+
+10. `:volume <level>`
+    - Adjusts the volume of the bot's playback (0-100).
+
+11. `:seek <time>`
+    - Seeks/jumps to a specific time (in seconds) in the current song.
+
+12. `:songinfo`
+    - Displays information about the current song (e.g., title, duration).
+
+13. `:clearqueue`
+    - Clears the entire song queue.
+
+14. `:shuffle`
+    - Shuffles the song queue to play in a random order.
+
+15. `:stop`
+    - Stops the current song and clears the queue.
+
+16. `:nick @user <nickname>`
+    - Changes the nickname of the mentioned user to the specified nickname.
+
+17. `:announce <message>`
+    - Sends an announcement message in the text channel.
+
